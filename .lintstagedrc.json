@@ -1,0 +1,5 @@
+{
+  "src/**/*.{js,ts,svelte}": ["eslint --fix --quiet"],
+  "src/**/*.{js,ts,svelte,html}": ["prettier --write"],
+  "package.json": "sort-package-json"
+}
