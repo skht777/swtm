@@ -20,6 +20,9 @@ const config = {
     enableSourcemap: isDev
   },
   kit: {
+    alias: {
+      $components: 'src/components'
+    },
     adapter: adapter({
       fallback: '200.html'
     }),
