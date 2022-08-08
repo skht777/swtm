@@ -21,7 +21,9 @@ const config = {
   },
   kit: {
     alias: {
-      $components: 'src/components'
+      $components: 'src/components',
+      $domain: 'src/domain',
+      $util: 'src/util'
     },
     adapter: adapter({
       fallback: '200.html'
