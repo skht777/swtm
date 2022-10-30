@@ -25,6 +25,7 @@ export default defineConfig(({ mode }) => {
         inline: ['date-fns']
       },
       include: ['**/src/**/*.spec.ts'],
+      setupFiles: 'vitest.setup.ts',
       globals: true
     }
   };

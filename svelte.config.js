@@ -23,6 +23,7 @@ const config = {
     alias: {
       $components: 'src/components',
       $domain: 'src/domain',
+      $infra: 'src/infra',
       $util: 'src/util'
     },
     adapter: adapter({
